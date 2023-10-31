@@ -1,0 +1,61 @@
+.titleDestinos {
+  font-size: 40px;
+  font-weight: 200;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  /* padding: 60px; */
+  margin-top: 3.5rem;
+}
+
+.titleDestinos:hover {
+  letter-spacing: 4px;
+}
+
+.fixed-height-image {
+  height: 15rem;
+  /* Ajusta la altura a la deseada en píxeles o cualquier otra unidad de medida */
+  object-fit: cover;
+  /* Esto mantiene la relación de aspecto de la imagen y recorta el exceso si es necesario */
+}
+
+.containerdestinos {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: center;
+  width: 75%;
+  margin: 0 auto;
+  
+  
+}
+
+.containercards{
+ height: 26rem;
+}
+
+.tododestinos{
+  background-color: rgba(187, 10, 36, 0.594);
+  padding-top: 2rem;
+}
+
+
+@media (max-width: 1081px){
+  .containerdestinos {
+    
+    grid-template-columns: auto auto;  
+    
+  }
+}
+@media (max-width: 716px) {
+  .containerdestinos {
+   
+    grid-template-columns: auto;  
+       
+  }
+}
+

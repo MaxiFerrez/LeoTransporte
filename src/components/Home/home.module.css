@@ -1,0 +1,153 @@
+.hero{
+    /* aspect-ratio: 16 / 9; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.h1{
+    color: white;
+    text-shadow: 1px 2px 12px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    font-weight: lighter;
+    backdrop-filter: blur(1px);
+}
+
+.h1 h1{
+    font-size: 7rem;
+    
+}
+
+.video{  
+    object-fit: cover;
+}
+
+.ul{
+    list-style-type: circle;
+    margin-left: 2rem;
+}
+
+.h2{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.h3{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .containerhome{
+border: 1px solid rgb(187,10,36);
+background-color: rgb(187,10,36);
+border-radius: 2rem;
+margin: 1.5rem;
+padding: 1rem;
+} */
+
+.containerhome{
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    height: 60rem;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1794px){
+    .h3{
+        font-size: 26px;
+        margin: 1rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1570px){
+    .h3{
+        font-size: 22px;
+        margin: 1rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1116px){
+    .h3{
+        font-size: 18px;
+        margin: 1rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .h1 h1{
+        font-size: 2rem;        
+    }
+
+    .wave{
+        position: absolute;
+        height: 115rem;
+        margin-top: 0;
+    }
+
+    .h2{
+        font-size: 25px;
+    }
+
+    .h3{
+        font-size: 25px;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 388px){
+    
+    .h2{
+        font-size: 20px;
+        color: white;
+    }
+
+    .h3{
+        font-size: 20px;
+        margin: 1rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .wave{
+        display: none;
+    }
+
+    .h2{
+        font-size: 15px;
+        color: black;
+    }
+
+    .h3{
+        font-size: 15px;
+        margin: 1rem;
+        color: black
+    }
+
+    .containerhome{
+        border-left: 10px solid rgba(187, 10, 36, 0.594);
+        border-bottom: 10px solid rgba(187, 10, 36, 0.594);
+    }
+}
+
+
+

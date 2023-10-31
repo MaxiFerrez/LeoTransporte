@@ -1,0 +1,87 @@
+.fondo_contact{
+    height: 43rem;
+    background-image: url('../../assets/fondo_contact.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.fondo_blur{
+    height: 43rem;
+    background-color: rgba(20, 19, 19, 0.7);
+}
+
+.contact_form {
+    width: 100%;
+    color: white;
+}
+
+.title_contact {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title_2 {
+    color: rgb(133, 15, 15);
+}
+
+.labelContainer {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inputField {
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto 1rem auto; 
+    color: rgba(63, 65, 64 , 0.8);
+}
+
+
+.button_contact{
+    background-color: rgb(133, 15, 15);
+    color: white;
+    margin: 0 auto; 
+    border-radius: 5px;
+    padding: 4px 14px;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+.button_contact:hover {
+    background-color: white;
+    color: rgb(133, 15, 15);
+    border: 2px solid rgb(133, 15, 15);
+}
+
+
+@media (min-width: 1000px) {
+    .fondo_contact{
+        height: 52rem;
+    }
+    .fondo_blur{
+         height: 52rem; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title_contact {
+        font-size: 3.2rem;
+        font-weight: 900;
+    }
+    .contact_form{
+        width: 60%;
+        height: 90%;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+    }
+    .button_contact{
+        height: 4rem;
+        width: 12rem;
+        font-size: 1.7rem;
+        font-weight: 550;
+    }
+}
